@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moeda</title>
+</head>
+<body>
+    <img src="./img/logo.gif" alt="logo-devclub-convert-money" class="logo">
+<div class="container">
+
+    <label for="entrada-valor" class="label1">
+        Converter <b>de</b>
+        <select name="" id="entradaValor" class="select1">
+            <option value="BRL" class="option1">R$ Real Brasileiro</option>
+            <option value="USD" class="option1">US$ Dólar Americano</option>
+            <option value="EUR" class="option1">€ Euro</option>
+            <option value="BTC" class="option1">₿ Bitcoin</option>
+            <option value="LIBRA" class="option1">£ Libra Esterlina</option>
+        </select>
+    </label>
+
+    <label for="saida-valor" class="label1" >
+        Converter <b>para</b>
+        <select name="" id="saidaValor" class="select1">
+
+            <option value="USD" class="option1">US$ Dólar Americano</option>
+            <option value="BRL" class="option1">R$ Real Brasileiro</option>
+            <option value="EUR" class="option1">€ Euro</option>
+            <option value="BTC" class="option1">₿ Bitcoin</option>
+            <option value="LIBRA" class="option1">£ Libra Esterlina</option>
+        </select>
+    </label>
+    
+    <label for="" class="label1">
+        Valor
+        <input id="inputValue" placeholder="R$ 10.000,00">
+    </label>
+    
+    <button id="convertButton"> Converter </button>
+    
+    <section>
+        <div>
+            <div>
+                <img class="flag" id="flagEntrada" src="./img/real.png" alt="logo-moeda-a-converter">
+                <p class="moeda1">Real</p>
+
+            </div>
+            <p id="Valor">R$ 0,00</p>
+        </div>
+        
+        <img src="./img/arrow.png" alt="" class="arrow">
+        
+        <div >
+            <div>
+                <img class="flag" id="flagSaida" src="./img/dolar.png"  alt="logo-moeda-convertida">
+                <p class="moeda2">Dólar</p> 
+            </div>
+            <p id="result">US$ 0,00</p>
+        </div>
+    </section>
+</div>
+</body>
+<script src="script.js"></script>
+
+

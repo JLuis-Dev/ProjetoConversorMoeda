@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: #8a51fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
+
+.container {
+    background: #f4f4f4;
+    width: 375px;
+    height: 712px;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 11px 8px;
+}
+
+select {
+    appearance: none;
+}
+
+b {
+    font-weight: 700;
+}
+
+.label1 {
+    width: 80px;
+    height: 18px;
+    margin: 44px 0px 0px 16px;
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.option1 {
+    width: 104px;
+    height: 18px;
+    color: #555;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    
+}
+
+.select1 {
+    width: 327px;
+    height: 48px;
+    margin: 10px 0px 0px 16px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    text-align: center;
+}
+
+input {
+    width: 327px;
+    height: 48px;
+    margin: 10px 0px 0px 16px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
+    background: #772fd3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    margin: 24px 0px 0px 16px;
+}
+
+
+
+.flag {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.arrow {
+    width: 35px;
+    height: 49.94px;
+    margin: 10px 0px 10px 0px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 26px 0px 16px 16px;
+    width: 327px;
+    height: 276px;
+    border-radius: 20px;
+    border: 1px solid #772fd3;
+    text-align: center;
+}
